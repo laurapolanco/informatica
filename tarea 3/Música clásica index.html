@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Música Clásica</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+  </head>
+  <style>
+    body {
+      width: 70%;
+      min-width: 400px;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-size: 25px;
+      padding: 10px;
+      margin-left: auto;
+      margin-right: auto;
+
+      display: grid;
+      gap: 20px;
+      grid-template-columns: 60% 40%;
+      grid-template-rows: auto;
+      grid-template-areas:
+        "nav nav"
+        "intro intro"
+        "tablita tablita"
+        "texto1 imagen1"
+        "parr1   parr1 "
+        "texto2 imagen2"
+        "parr2 parr2 "
+        "texto3 imagen3 "
+        "parr3 parr3";
+    }
+    #texto1 {
+      grid-area: texto1;
+    }
+    #parr1 {
+      grid-area: parr1;
+    }
+    #texto2 {
+      grid-area: texto2;
+    }
+    #parr2 {
+      grid-area: parr2;
+    }
+    #texto3 {
+      grid-area: texto3;
+    }
+    #parr3 {
+      grid-area: parr3;
+    }
+    #imagen1 {
+      grid-area: imagen1;
+    }
+
+    #imagen2 {
+      grid-area: imagen2;
+      width: 100%;
+    }
+    #imagen3 {
+      grid-area: imagen3;
+      width: 100%;
+    }
+    #tablita {
+      grid-area: tablita;
+      width: 80%;
+    }
+    #intro {
+      grid-area: intro;
+    }
+
+    #nav {
+      grid-area: nav;
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 20px;
+      padding: 30px;
+    }
+    h2 {
+      color: cornflowerblue;
+      border-top: solid 10px cornflowerblue;
+    }
+    h1 {
+      color: cornflowerblue;
+    }
+    table {
+      background: rgb(203, 215, 236);
+    }
+  </style>
+
+  <body>
+ 
+    <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="Música clásica index.html"
+              >Música Clásica <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Bach.html">Bach</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Mozart.html">Mozart</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="Chopin.html">Chopin</a>
+          </li>
+          
+            
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="intro">
+      <h1>Música Clásica</h1>
+      <p>
+        Lo que hoy llamamos música clásica no es un único estilo de música, en
+        realidad abarca varios periodos de la música occidental principalmente
+        europea , cada uno con disitintas características. A continuación
+        veremos curiosidades de 3 piezas de la música acedémica.
+      </p>
+    </div>
+    <table id="tablita " class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">Periodo</th>
+          <th scope="col">Año</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Música Barroca</td>
+          <td>Entre 1600 y 1750</td>
+        </tr>
+        <tr>
+          <td>Música Clásica</td>
+          <td>1730 y 1820</td>
+        </tr>
+        <tr>
+          <td>Música Romántica</td>
+          <td>1815 y 1910</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div id="texto1">
+      <h2>Canon del Cangrejo</h2>
+      <p>
+        El canon es una forma de composición en la que una voz interpreta una
+        melodía, y es seguida, a distancia de ciertos compases, por sucesivas
+        voces que interpretan esa misma melodía. Este canon compuesto por Bach
+        es bastante particular porque tiene varias partes que se pueden leer al
+        derecho y al revés y dicen lo mismo, además la partitura es un bucle sin
+        fin porque cuando llegas al final teminas en el inicio y cada nueva
+        línea melódica hace de acompañamiento a la melodía principal, al mismo
+        tiempo que se van repitiendo al derecho y al revés. Si deseas escucharlo
+        haz click <a href="https://youtu.be/xUHQ2ybTejU">aquí </a>.
+      </p>
+    </div>
+    <p id="parr1">
+      Bach e uno de los compositores más importantes,no sólo del Barroco si no
+      de toda la humanidad, venía de una familia de músicos, adoraba las
+      matemáticas y firmaba sus obras de una manera particular, haz click
+      <a href="Bach.html"></a> para saber más sobre él.
+    </p>
+    <img
+      id="imagen1"
+      src="https://www.musicaantigua.com/wp-content/uploads/2015/08/bach-matematicas.jpg"
+      alt="Bach "
+    />
+
+    <div id="texto2">
+      <h2>El Requiem de Mozart</h2>
+
+      <p>
+        La leyenda cuenta que un hombre misterioso, completamente vestido de
+        negro, visitó a Wolfgang Amadeus Mozart en su casa de Viena y le pidió
+        componer un Réquiem (una pieza que se interpreta mientras se canta el
+        texto de la misa por un difunto) para un servicio fúnebre. Nunca le dijo
+        su nombre, tampoco el nombre de la persona para la cual estaba destinada
+        la pieza y le exigió no investigar las razones del encargo. Mozart no
+        comenzó a trabajar inmediatamente en la obra porque estaba componiendo
+        otros encargos y operas como "La Flauta Mágica". Pero tiempo después el
+        misterioso hombre apareció nuevamente preguntando por el Requiem, Mozart
+        pensando que era una señal del más allá, comenzó a trabajar en la obra
+        creyendo que sería para su propio funeral. Tiempo después cayó enfermo y
+        le dio instrucciones a su alumno Franz Xaver Süssmayr para que la
+        terminara, Mozart murió el 5 de diciembre de 1791 y una parte del
+        Requiem sonó en la misa celebrada en su honor. La leyenda es bastante
+        actrativa pero la realidad no se queda atrás el hombre misterioso era un
+        emisario del conde Franz von Walsegg-Stuppach, quien solía contractar
+        músicos para al final apropiarse de sus obras. La esposa del conde
+        murió, por eso quizo contratar los servicios de Moazart, pero le pidió
+        discresión a su emisario pues quería hacer pasar el Requiem como suyo.
+        Para escucharlo haz click
+        <a href="https://youtu.be/sPlhKP0nZII ">aquí </a>.
+      </p>
+    </div>
+    <p id="parr2">
+      Mozart es sin duda uno de los compositores más importantes de la historia,
+      empezó a componer desde los 5 años, quieres saber más sobre él haz click
+      <a href="Mozart.html">aquí </a>.
+    </p>
+    <img
+      id="imagen2"
+      src="https://1.bp.blogspot.com/-q5p1mlSux_o/XZ4x-9H2EBI/AAAAAAAAgiA/39rLTx5Yh8AIiJNemrhFnYTt0RL6-bGAACLcBGAsYHQ/s1600/cemetery-angel-2.jpg"
+      alt="estatua "
+    />
+    <div id="texto3">
+      <h2>El preludio de la gota de lluvia</h2>
+
+      <p>
+        Por su delicada salud Chopin tuvo que viajar a Mallorca junto a su
+        amante George Sand para poder recuperarse.Llegaron a la isla a
+        principios de noviembre de 1838, inicialmente se instalaron en una fonda
+        del centro de Palma de Mallorca y luego en una casa de campo. El primer
+        mes fue puera felicidad pero esta no duró mucho, en noviembreel invierno
+        se abatió en Mallorca con toda su crudeza. Debido a rumores sobre que
+        Chopin tenía tuberculosis, él junto a su familia tuvieron que mudarse a
+        la cartuja de Valldemossa, donde consiguieron alojamiento en dos celdas.
+        El clima no ayudó emocionalmente a Chopin, esto se refleja en sus 24
+        preludios, pero el que más destaca es el número 15 bautizado como
+        "Preludio de la gota de agua" por la nota La bemol que se repite
+        constantemente, lo que se ha interpretado como el golpeo de las gotas de
+        lluvia, que escuchaba Chopin con insistencia durante su estancia en la
+        cartuja de Valldemossa. Para escucharlo haz click
+        <a href="https://youtu.be/pVLOcy253KI ">aquí </a>.
+      </p>
+    </div>
+    <p id="parr3">
+      Chopin es uno de los compositores de piano más conocidos quieres saber más
+      sobre él haz click <a href="Chopin.html">aquí </a>.
+    </p>
+    <img
+      id="imagen3"
+      src="https://i.ytimg.com/vi/hVOGenTDM5M/hqdefault.jpg "
+      alt="Chopin "
+    />
+  </body>
+</html>

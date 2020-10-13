@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bach</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <style>
+    body {
+      width: 70%;
+      min-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-size: 25px;
+      padding: 10px;
+
+      display: grid;
+      gap: 20px;
+      grid-template-columns: 60% 40%;
+      grid-template-rows: auto;
+      grid-template-areas:
+        "nav nav "
+        "titulo titulo"
+        "timg timg"
+        "sub1 sub1 "
+        " texto1 img1"
+        "sub2 sub2"
+        "texto2 img2 "
+        "texto3 texto3 "
+        "sub3 sub3"
+        "texto4 img3"
+        "texto5 texto5 ";
+    }
+
+    #titulo {
+      grid-area: titulo;
+    }
+    #timg {
+      grid-area: timg;
+      width: 100%;
+      margin-left: 100px;
+    }
+    #texto1 {
+      grid-area: texto1;
+    }
+    #sub2 {
+      grid-area: sub2;
+    }
+    #texto2 {
+      grid-area: texto2;
+    }
+    #texto3 {
+      grid-area: texto3;
+    }
+    #sub3 {
+      grid-area: sub3;
+    }
+    #texto4 {
+      grid-area: texto4;
+    }
+    #texto5 {
+      grid-area: texto5;
+    }
+    #sub1 {
+      grid-area: sub1;
+    }
+    #img1 {
+      grid-area: img1;
+      width: 100%;
+    }
+    #img2 {
+      grid-area: img2;
+      width: 100%;
+    }
+    #img3 {
+      grid-area: img3;
+      width: 100%;
+    }
+    h2 {
+      color: rgb(248, 185, 126);
+      border-top: solid 10px rgb(248, 185, 126);
+    }
+    h1 {
+      color: rgb(248, 185, 126);
+      text-align: center;
+    }
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 20px;
+      padding: 10px;
+    }
+    #nav {
+      grid-area: nav;
+    }
+  </style>
+
+  <body>
+    <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="Música clásica index.html"
+              >Música Clásica <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Bach.html">Bach</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Mozart.html">Mozart</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="Chopin.html">Chopin</a>
+          </li>
+          
+            
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <h1 id="titulo">Bach</h1>
+    <img
+      style="margin-left: 55%"
+      id="timg "
+      src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Johann_Sebastian_Bach.jpg"
+      alt="Bach"
+    />
+    <h2 id="sub1">Biografia</h2>
+    <div id="texto1">
+      <p>
+        Johann Sebastian Bach fue un compositor, organista, clavecinista,
+        director de orquesta, violinista, violagambista, maestro de capilla,
+        cantor y profesor alemán del período barroco. Fue miembro de una de las
+        familias de músicos más destacadas de la historia, con más de 200 años
+        de tradición y con más de 35 compositores famosos. Su padre era
+        trompetista de la corte de Eisenach y director de los músicos de dicha
+        ciudad, cuando su padre murió quien lo cuidó fue su hermano mayor Johann
+        Christoph, bajo su cuidado Bach se familiarizó rápidamente con los
+        instrumentos de teclado, el órgano y el clave, instrumentos de los que
+        sería intérprete. En los primeros años del siglo XVIII Bach comenzó su
+        carrera musical que se puede dividir en las siguientes etapas:Arnstadt
+        (1703-1707), Mühlhausen (1707-1708), Weimar (1708-1717), Köthen
+        (1717-1723) y Leipzig (1723-1750). En 1749 la salud de Bach comenzó a
+        empeorar y murió el 28 de julio de 1750.
+      </p>
+    </div>
+    <img
+      id="img1"
+      src="https://i.pinimg.com/474x/dd/04/ac/dd04accc8b47e947e82dc029590dab8c.jpg"
+      alt="tumba  Bach "
+    />
+    <h2 id="sub2">Obras</h2>
+    <div id="texto2">
+      <p>Bach pertenece al Barroco periodo caracterizado por:</p>
+      <ol>
+        <li>un bajo continuo</li>
+        <li>contrapunto</li>
+        <li>el desarrollo de la música tonal</li>
+        <li>
+          crearon nuevas formas (tipos de piezas) como: la sonata, suite,
+          concierto, etc.
+        </li>
+      </ol>
+      <p>
+        Bach era un amante de las matemáticas, esto se refleja en las
+        intrincadas estructuras y simetrías presentes en sus composiciones, un
+        ejemplo de esto sería
+        <a href="Música clásica index.html"> el Canon del Cangrejo </a>. Además
+        solía firmar sus piezas con las notas Si bemol, La, Do, Si becuadro
+        porque en el cifrado alemán se escribía como B,A,C,H. Además muchas de
+        sus obras se caracterizan por tener un carácter religioso, algunas de
+        estas son:
+      </p>
+    </div>
+    <ol id="texto3">
+      <li>Cantata y Fuga en Re menor</li>
+      <li>Canon del Cangrejo</li>
+      <li>Suites para violonchelo</li>
+      <li>Conciertos de Brandenburgo</li>
+      <li>La pasión según San Mateo</li>
+    </ol>
+
+    <img
+      id="img2"
+      src="https://i.pinimg.com/originals/cd/f0/51/cdf0513d8795f4175a9f286a0c39933c.jpg"
+      alt="partituras de Bach "
+    />
+    <h2 id="sub3">Legado</h2>
+    <p id="texto4">
+      Bach no fue reconozido en su tiempo, fue tiempo después, principalmente
+      compositores del Romanticismo, que se empezó a valorar su obra, Joseph
+      Haydn, Wolfgang Amadeus Mozart, Ludwig van Beethoven, Felix Mendelssohn,
+      Robert Schumann y Frédéric Chopin eran grande amantes de su obra. Mozart
+      al oír una de sus piezas exclamó «¡Al fin algo de lo que se puede
+      aprender!». Beethoven lo describió como el «Urvater der Harmonie» («Padre
+      original de la armonía») y haciendo un juego de palabras en alemán dijo:
+      «Nicht Bach, sondern Meer sollte er heissen», cuya traducción es «No
+      debiera llamarse Bach ('arroyo'), sino Meer ('mar')».
+    </p>
+    <p id="texto5">
+      La reputación de Bach fue reconstruida por Mendelssohn y Johann Nikolaus
+      Forkel en 1802. Felix Mendelssohn contribuyó de manera significativa con
+      su representación de la Pasión según San Mateo. Gracias a esto se empezó a
+      reconocer a Bach junto a sus grandes aportes a la música.
+    </p>
+    <img
+      id="img3"
+      src="https://www.musicaantigua.com/wp-content/uploads/2015/08/bach-photo.jpg "
+      alt="Bach"
+    />
+  </body>
+</html>

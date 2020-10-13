@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chopin</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <style>
+    body {
+      width: 70%;
+      min-width: 400px;
+      margin-left: auto;
+      margin-right: auto;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-size: 25px;
+      padding: 10px;
+
+      display: grid;
+      gap: 20px;
+      grid-template-columns: 60% 40%;
+      grid-template-rows: auto;
+      grid-template-areas:
+        "nav nav "
+        "titulo titulo"
+        "timg timg"
+        "sub1 sub1 "
+        " texto1 img1"
+        "sub2 sub2"
+        "texto2 img2 "
+        "texto3 texto3 "
+        "sub3 sub3"
+        "texto4 img3";
+    }
+
+    #titulo {
+      grid-area: titulo;
+    }
+    #timg {
+      grid-area: timg;
+      width: 100%;
+    }
+    #texto1 {
+      grid-area: texto1;
+    }
+    #sub2 {
+      grid-area: sub2;
+    }
+    #texto2 {
+      grid-area: texto2;
+    }
+    #texto3 {
+      grid-area: texto3;
+    }
+    #sub3 {
+      grid-area: sub3;
+    }
+    #texto4 {
+      grid-area: texto4;
+    }
+    #sub1 {
+      grid-area: sub1;
+    }
+    #img1 {
+      grid-area: img1;
+      width: 100%;
+    }
+    #img2 {
+      grid-area: img2;
+      width: 100%;
+    }
+    #img3 {
+      grid-area: img3;
+      width: 100%;
+    }
+    h2 {
+      color: rgb(210, 209, 253);
+      border-top: solid 10px rgb(210, 209, 253);
+    }
+    h1 {
+      color: rgb(210, 209, 253);
+      text-align: center;
+    }
+    img {
+      display: block;
+      border-radius: 20px;
+      padding: 10px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    #nav {
+      grid-area: nav;
+    }
+  </style>
+
+  <body>
+    <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="Música clásica index.html"
+                >Música Clásica <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Bach.html">Bach</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Mozart.html">Mozart</a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link" href="Chopin.html">Chopin</a>
+            </li>
+            
+              
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <h1 id="titulo">Chopin</h1>
+    <img
+      style="margin-left: 55%"
+      id="timg "
+      src="https://rememberingstars.com/wp-content/uploads/2019/10/Fr%C3%A9d%C3%A9ric-Chopin.jpg"
+      alt="Chopin"
+    />
+    <h2 id="sub1">Biografia</h2>
+    <div id="texto1">
+      <p>
+        Frédéric François Chopin (Żelazowa Wola, Gran Ducado de Varsovia, 1 de
+        marzo)) fue un profesor, compositor y virtuoso pianista polaco,
+        considerado uno de los más importantes de la historia y uno de los
+        mayores representantes del Romanticismo.Hijo de un maestro francés
+        emigrado a Polonia, Chopin fue un niño prodigio que desde los seis años
+        empezó a dar Conciertos para la aristocracia.El fracaso de la revolución
+        polaca de 1830 contra el poder ruso provocó su exilio en Francia donde
+        se dio a conocer como pianista y compositor, hasta convertirse en el
+        favorito de los grandes salones parisinos.Allí conoció a compositores
+        como Liszt (con el cual termina entablando una relación de amistad),
+        Berlioz, Rossini, Luigi Cherubini y Vincenzo Bellini, además conoce a su
+        amante George Sand. Chopin siempre tuvo una delicada salud, al comienzo
+        del año 1849 se encontró demasiado débil como para enseñar, Chopin
+        sabiendo que pronto llegaría su hora dijo:"Encontraréis muchas
+        partituras, más o menos dignas de mí. En nombre del amor que me tenéis,
+        por favor, quemadlas todas excepto la primera parte de mi método para
+        piano. El resto debe ser consumido por el fuego sin excepción, porque
+        tengo demasiado respeto por mi público y no quiero que todas las piezas
+        que no sean dignas de él anden circulando por mi culpa y bajo mi nombre.
+        ", nadie hizo caso a esta petición y falleció a las dos de la madrugada
+        del 17 de octubre de 1849.
+      </p>
+    </div>
+    <img
+      id="img1"
+      src="https://cmig-astro.org/wp-content/uploads/2016/11/CHOPIN-EN-MALLORCA.jpg"
+      alt="Chopin"
+    />
+    <h2 id="sub2">Obras</h2>
+    <div id="texto2">
+      <p>Chopin pertenece al Romanticismo periodo caracterizado por:</p>
+      <ol>
+        <li>virtuosismo</li>
+        <li>libertdad y expresividad</li>
+        <li>obras de más de duración</li>
+        <li>poemas sinfónicos (música que cuenta una historia )</li>
+      </ol>
+      <p>
+        Chopin era un compositor muy expresivo es de una importancia enorme para
+        todos los pianistas porque exploró una nueva forma de hacer sonar el
+        piano, él hacía "cantar" al piano dirigiéndose a cada intérprete y a
+        cada oyente, su vida se caracteriza por una gran nostalgia y tristeza la
+        cual se refleja en su música como se ve en el
+        <a href="Música clásica index.html">Preludio de la gota de lluvia </a>,
+        Chopin expresa todas sus emociones a través del piano y por esto es
+        considerado "El poeta del piano". Fue algo influenciado por Paganini, al
+        ver el virtuosismo que este tenía con el violín, Chopin quizo lograr lo
+        mismo con el piano.
+      </p>
+    </div>
+    <ol id="texto3">
+      <li>Tres Nocturnos Op. 9, para piano (1830-31)r</li>
+      <li>Estudios Op. 10, para piano (1829-32)</li>
+      <li>
+        Balada n.º 1, Op. 23, para piano, en Sol menor (primera versión de 1831;
+        revisada en 1834-35)
+      </li>
+      <li>
+        Fantaisie-Impromptu Op. 66, para piano, en Do sostenido menor (1834)
+      </li>
+      <li>Tres Valses Op. 70, para piano</li>
+    </ol>
+
+    <img
+      id="img2"
+      src="https://i.pinimg.com/originals/b1/65/e5/b165e5d979cde0f54b7ad7a5ea0c16cc.jpg"
+      alt="partituras de Chopin "
+    />
+    <h2 id="sub3">Legado</h2>
+    <p id="texto4">
+      El legado dejado por Chopin constituye un repertorio que influyó
+      sustancialmente sobre el lenguaje musical de los románticos. Su manera de
+      tocar el piano y sus composiciones dejaron su huella en la música de los
+      salones de su época como ningún otro músico antes de él.
+    </p>
+
+    <img
+      id="img3"
+      src="https://media-cdn.tripadvisor.com/media/photo-s/0d/58/e3/f5/chopin-2.jpg "
+      alt="Estatua de Chopin"
+    />
+  </body>
+</html>
