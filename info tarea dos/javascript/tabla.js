@@ -1,0 +1,3 @@
+let gatos= [
+    {raza:"persa"}
+]
