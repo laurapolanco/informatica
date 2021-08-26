@@ -49,3 +49,13 @@ dibujarPeon(x2, y2, 50,"gainsboro");
 }
 
 window.setInterval(moverYDibujar, dT);
+
+window.onkeydown = function(event){
+
+    if (event.key == "ArrowRight") {
+        vX = 300
+    }
+   if (event.key == "ArrowLeft") {
+       vX = -300
+   }
+}
