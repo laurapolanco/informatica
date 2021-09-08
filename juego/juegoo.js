@@ -326,7 +326,7 @@ function Spuntos (){
         n4= 2000 
     }
 
-    if(Math.sqrt(Math.pow((x-(n5+10)),2)+Math.pow((x-(n6+10)),2) )<=40){
+    if(Math.sqrt(Math.pow((x-(n5+10)),2)+Math.pow((y-(n6+10)),2) )<=40){
         levi=levi+1
         n5= 2000
         n6= 2000 
