@@ -312,7 +312,7 @@ function Dpuntos (){
 function Spuntos (){
    
     
-    if(x>=n1 && x<=(n1+50) && y>=(n2-30) && y<=n2){
+if(Math.sqrt(Math.pow((x-(n1+10)),2)+Math.pow((y-(n2+10)),2) )<=40){
         
         levi=levi+1
         n1= 2000
@@ -320,7 +320,7 @@ function Spuntos (){
     
     }
     
-    if(x>=(n3+20) && x<=(n3+40) && y>=(n4-30) && y<=(n4+50)  ){
+    if(Math.sqrt(Math.pow((x-(n3+10)),2)+Math.pow((y-(n4+10)),2) )<=40){
         levi=levi+1
         n3= 2000
         n4= 2000 
@@ -332,7 +332,7 @@ function Spuntos (){
         n6= 2000 
     }
 
-    if(x>=(n7-20) && x<=(n7+40) && y>=(n8-25) && y<=(n8+50)  ){
+    if(Math.sqrt(Math.pow((x-(n7+10)),2)+Math.pow((y-(n8+10)),2) )<=40){
         levi=levi+1
         n7= 2000
         n8= 2000 
