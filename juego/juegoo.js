@@ -349,7 +349,7 @@ function Ganar (){
         n6= 2000
         n7= 2000
         n8= 2000
-        Dpuntos () 
+       
     alert ("Has ganado, recarga la página para volver a jugar")
 
     }
