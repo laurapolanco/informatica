@@ -336,6 +336,10 @@ if(Math.sqrt(Math.pow((x-(n1+10)),2)+Math.pow((y-(n2+10)),2) )<=40){
         levi=levi+1
         n7= 2000
         n8= 2000 
-        alert("Has Ganado, para jugar otra vez recarga la página")
+        
+    }
+ if (levi=4) {
+         alert("Has Ganado, para jugar otra vez recarga la página")
     }
 }
+
