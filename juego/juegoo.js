@@ -1,4 +1,5 @@
-let canvas = document.querySelector("#miCanvas")
+
+ let canvas = document.querySelector("#miCanvas")
 
 
 let ctx = canvas.getContext("2d")
@@ -225,7 +226,9 @@ function moverYDibujar(){
     fondo ()
     Dpuntos()
     Spuntos()
-    Ganar ()
+    Ganar()
+    
+   
    Score.innerHTML=levi
 }
 
@@ -338,6 +341,11 @@ if(Math.sqrt(Math.pow((x-(n1+10)),2)+Math.pow((y-(n2+10)),2) )<=40){
         n8= 2000 
         
     }
+
+   
+   
+}
+
 function Ganar (){
     if (levi==4){
 
@@ -349,10 +357,18 @@ function Ganar (){
         n6= 2000
         n7= 2000
         n8= 2000
-       
+
     alert ("Has ganado, recarga la página para volver a jugar")
 
     }
-
 }
+   
+
+  
+    
+
+  
+    
+       
+   
 
