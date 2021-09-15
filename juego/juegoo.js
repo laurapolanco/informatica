@@ -225,7 +225,7 @@ function moverYDibujar(){
     fondo ()
     Dpuntos()
     Spuntos()
-   
+    Ganar ()
    Score.innerHTML=levi
 }
 
@@ -337,6 +337,21 @@ if(Math.sqrt(Math.pow((x-(n1+10)),2)+Math.pow((y-(n2+10)),2) )<=40){
         n7= 2000
         n8= 2000 
         
+    }
+function Ganar (){
+    if (levi==4){
+
+        n1= 2000
+        n2= 2000
+        n3= 2000
+        n4= 2000
+        n5= 2000
+        n6= 2000
+        n7= 2000
+        n8= 2000
+        Dpuntos () 
+    alert ("Has ganado, recarga la página para volver a jugar")
+
     }
 
 }
